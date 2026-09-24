@@ -15,6 +15,7 @@ int main() {
             soma += num;
             qntd++;
         }
+        
         num++;
     }
 

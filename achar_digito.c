@@ -5,7 +5,7 @@ int main() {
 
     scanf("%d %d", &num, &dig);
 
-    while (num > 0 && !achou){
+    while (num > 0 && !achou) {
         if(num % 10 == dig)
             achou = 1;
         num /= 10;

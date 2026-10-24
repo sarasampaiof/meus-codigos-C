@@ -1,14 +1,16 @@
 #include <stdio.h>
-int main() {
+int main() 
+{
     int nums, i=0, ant, atual, cres=1, decres=1;
 
-    printf("Digite a quantidade de números a ser recebida: ");
+    printf("Digite a quantidade de números a ser recebida (dois ou mais): ");
     scanf("%d", &nums);
 
     printf("Digite o primeiro número: ");
     scanf("%d", &ant);
 
-    for (i = 1; i < nums; i++) {
+    for (i = 1; i < nums; i++) 
+    {
         printf("Digite o próximo número: ");
         scanf("%d", &atual);
 

@@ -1,6 +1,6 @@
 #include <stdio.h>
-int main () {
-    
+int main () 
+{
     int min, max, valor, maior, menor, cont=0;
     
     printf("Digite valores de mínima e máxima, respectivamente: ");
@@ -8,14 +8,18 @@ int main () {
     printf("Digite o primeiro valor (valor negativo p/ sair): ");
     scanf("%d", &valor);
 
-    while (valor >= 0) { // enquanto valor for positivo, faça:
-        if (valor >= min && valor <= max) { // valores dentro da faixa
-            if (cont == 0) { // ou seja, se estiver lendo o primeiro valor dentro da faixa, pois a var cont ainda não terá sido iniciada
+    while (valor >= 0) // enquanto valor for positivo, faça:
+    {
+        if (valor >= min && valor <= max) // valores dentro da faixa
+        {
+            if (cont == 0) // ou seja, se estiver lendo o primeiro valor dentro da faixa, pois a var cont ainda não terá sido iniciada
+            {
             maior = valor; 
             menor = valor;
-            // o valor será atribuído às vars maior e menor, pois ainda é o único num conhecido
+            // o valor será atribuído às vars maior e menor, pois ainda é o único número conhecido
             }
-            else { // se não for mais a primeira verificação
+            else 
+            { // se não for mais a primeira verificação
                 if (valor < menor)
                     menor = valor;
                 if (valor > maior)
@@ -23,7 +27,7 @@ int main () {
             }
             cont++;
         }
-        scanf("%d", &valor); // lê próximo valor no  final do loop
+        scanf("%d", &valor); // lê próximo valor no final do loop
     }
     
     if (cont > 0) // ou seja, se há valor(es) dentro da faixa

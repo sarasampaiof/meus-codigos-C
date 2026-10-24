@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 double casasDecimais (double x) {
-    return (x - (int)x); // typecasting = força a variável a ficar no formato de inteiro, o que trunca o número, ou seja, "apaga"/subtrai sua parte inteira, nesse caso
+    return (x - (int)x); // typecasting = força a variável a ficar (não permanentemente) no formato dado entre parênteses, nesse caso, o inteiro (o que trunca o número), ou seja, "apaga"/corta/subtrai sua parte decimal/fracionária
 }
 
 int main() {

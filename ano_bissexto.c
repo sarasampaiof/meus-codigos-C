@@ -20,7 +20,6 @@ int main () {
 }
 
 int ehBissexto (int ano) {
-    
     int eh_Bissexto; // flag
     
     if (ano % 400 == 0 || (ano % 4 == 0 && ano % 100 != 0))

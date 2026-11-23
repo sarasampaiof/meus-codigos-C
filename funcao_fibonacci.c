@@ -2,7 +2,7 @@
 
 int proxFibonacci (int n) {
     
-    int ant0=0, ant1=1, atual=ant0+ant1;
+    int ant0 = 0, ant1 = 1, atual = ant0+ant1;
 
     while (atual < n) {
         

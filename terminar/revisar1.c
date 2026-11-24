@@ -11,7 +11,7 @@ int main () {
 
     int v[N], i, soma=0, media=0, maiores=0, menores=0, iguais=0;
 
-    srand(time(NULL));
+    srand(time(NULL)); // gera valores aleatórios
 
     for (i=0; i<N; i++) {
         v[i] = rand() % 10; //61 + 20;

@@ -2,7 +2,7 @@
 #include <stdlib.h> // p/ usar srand() e rand()
 #include <time.h> // p/ usar time()
 
-#define N 5 // exemplo de valor -> quantidade de números a serem 
+#define N 5 // exemplo de valor -> quantidade de números a serem sorteados/quantidade de posições no vetor (índicies vão de 0 a N-1)
 
 int main () {
 
